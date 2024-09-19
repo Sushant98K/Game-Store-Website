@@ -1,4 +1,4 @@
-/* body {
+body {
   color: #eee;
   font-family: Poppins;
   margin: 0;
@@ -12,7 +12,7 @@
 }
 ::-webkit-scrollbar {
   width: 0;
-} */
+} 
 * {
   padding: 0;
   margin: 0;
