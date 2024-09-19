@@ -1,0 +1,86 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  /* font-family: 'poppins', sans-serif; */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth scroll;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding: 2rem;
+}
+
+:root {
+  --main-color: #fa5353;
+  --dark-color: #15182b;
+  --light-color: #322f40;
+  --text-color: hsl(0, 0%, 91%);
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  width: min(1200px, 90vw);
+  margin: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: -70px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner #dotsCanvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--dark-color);
+}
