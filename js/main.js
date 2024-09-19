@@ -5,3 +5,10 @@ menu.onclick = () => {
   navbar.classList.toggle("active");
   menu.classList.toggle("move");
 };
+
+// Notification
+let bell = document.querySelector(".notification");
+
+document.querySelector('#bell-icon').onclick = () => {
+    bell.classList.toggle('active');
+}

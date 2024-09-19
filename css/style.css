@@ -200,6 +200,11 @@ header {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
+  clip-path: circle(0% at 100% 0%);
+}
+.notification.active {
+  clip-path: circle(144% at 100% 0%);
+  transition: 0.3s;
 }
 .notification-box {
   display: flex;
@@ -208,4 +213,13 @@ header {
   border-radius: 0.5rem;
   background: var(--dark-color);
   padding: 10px;
+}
+.notification-box .bx {
+  color: #faf102;
+}
+.box-color {
+  background: hsla(0, 0%, 100%, 0.4);
+}
+.box-color .bx {
+  color: var(--main-color);
 }
