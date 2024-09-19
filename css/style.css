@@ -47,40 +47,22 @@ img {
   width: 100%;
 }
 
-header {
-  width: min(1200px, 90vw);
-  margin: auto;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-main .banner {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  text-align: center;
-  margin-top: -70px;
-}
-
-.banner {
-  position: relative;
-}
-
-.banner #dotsCanvas {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none; /*pointer pointing the content */
-}
-
 body {
   color: var(--text-color);
   background: var(--dark-color);
+}
+
+.container {
+  max-width: 1068px;
+  margin: auto;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--dark-color);
+  z-index: 100;
 }
