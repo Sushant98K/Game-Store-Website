@@ -67,7 +67,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--dark-color);
+  background: transparent;
   z-index: 100;
 }
 /* Nav */
