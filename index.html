@@ -17,30 +17,47 @@
     />
   </head>
   <body>
-    <main>
-      <div class="banner">
-        <!-- Header -->
-        <header>
-          <!-- Nav Bar -->
-           <div class="nav container">
-            <!-- Logo -->
-             <a href="index.html" class="Logo">Game <span>Store</span></a>
+    <!-- Header -->
+    <header>
+      <!-- Nav Bar -->
+      <div class="nav container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">Game <span>Store</span></a>
+        <div class="nav-icons">
+          <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+          <i class="bx bx-download"></i>
+          <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+        <!-- Menu -->
+         <div class="menu">
+          <img src="img/gta6.png" alt="menu">
+          <div class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#new">New Games</a></li>
+            <li><a href="#action">Action Games</a></li>
+            <li><a href="#contact">Contact US</a></li>
+          </div>
+         </div>
+         <!-- Notification -->
+          <div class="notification">
+            <div class="notification-box">
+              <i class='bx bxs-check-circle' ></i>
+              <p>Congratulation, your game download successfully.</p>
+            </div>
+            <div class="notification-box">
+              <i class='bx bxs-x-circle' ></i>
+              <p>Could not apply changes.</p>
+            </div>
+          </div>
 
-           </div>
 
-
-
-        </header>
-
-
-
-
-
-
-
-        <canvas id="dotsCanvas"></canvas>
       </div>
-    </main>
+    </header>
 
     <!-- Main JS Link -->
     <script src="js/main.js"></script>
