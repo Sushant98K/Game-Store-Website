@@ -12,3 +12,4 @@ let bell = document.querySelector(".notification");
 document.querySelector('#bell-icon').onclick = () => {
     bell.classList.toggle('active');
 }
+
