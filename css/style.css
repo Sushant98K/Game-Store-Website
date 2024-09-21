@@ -38,6 +38,7 @@ img {
 body {
   color: var(--text-color);
   background: var(--dark-color);
+  overflow-x: hidden;
 }
 .container {
   max-width: 1750px;
@@ -223,7 +224,7 @@ header {
 /* carousel */
 .carousel {
   height: 100vh;
-  /* margin-top: 0px; */
+  margin-top: 0px;
   width: 100vw;
   overflow: hidden;
   position: relative;
