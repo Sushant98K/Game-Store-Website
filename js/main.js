@@ -9,17 +9,17 @@ menu.onclick = () => {
 
 // Notification
 let bell = document.querySelector(".notification");
-
-document.querySelector("#bell-icon").onclick = () => {
-  bell.classList.toggle("active");
-};
 // Custom Scroll Bar
-window.onscroll = function () { mufunction() };
+window.onscroll = function () {
+  mufunction();
+};
 
 function mufunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("scroll-bar").style.width = scrolled + "%";
 }
