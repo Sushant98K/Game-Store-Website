@@ -725,11 +725,11 @@ header {
 }
 .download-links {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin-bottom: 2rem;
 }
-.download-links a{
+.download-links a {
   text-align: center;
   background: var(--main-color);
   padding: 12px 20px;
@@ -758,4 +758,214 @@ html::-webkit-scrollbar {
   height: 4px;
   background: var(--main-color);
   width: 0%;
+}
+/* Contact Section */
+
+/* Left Section */
+.contact {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact h2 {
+  display: inline-flex;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-bottom: 4px solid var(--main-color);
+}
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+}
+.row section.col {
+  display: flex;
+  flex-direction: column;
+}
+.row section.left {
+  flex-basis: 35%;
+  min-width: 320px;
+  margin-right: 60px;
+}
+
+.contactTitle h2 {
+  position: relative;
+  font-size: 28px;
+  color: #ddd;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.contactTitle p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: var(--text-color);
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+.contactInfo {
+  margin-bottom: 30px;
+}
+.iconGroup {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  margin-right: 20px;
+  position: relative;
+}
+.icon i {
+  font-size: 24px;
+  color: var(--text-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.details span {
+  display: block;
+  color: var(--text-color);
+  font-size: 200;
+}
+.details span:nth-child(1) {
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.socialMedia {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 22px 0 20px;
+}
+.socialMedia a {
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  transition: 0.4s;
+}
+.socialMedia a i {
+  color: #eee;
+  font-size: 18px;
+  line-height: 35px;
+  border: 1px solid transparent;
+  transition-delay: 0.4s;
+}
+.socialMedia a:hover {
+  transform: translateY(-5px);
+  background-color: var(--dark-color);
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+.socialMedia a:hover i {
+  color: var(--main-color);
+}
+
+/* Right Section */
+.row section.right {
+  flex-basis: 60%;
+}
+
+.messageForm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.inputGroup {
+  margin: 18px 0;
+  position: relative;
+}
+.halfWidth {
+  flex-basis: 48%;
+}
+.fullWidth {
+  flex-basis: 100%;
+}
+.messageForm input,
+.messageForm textarea {
+  width: 100%;
+  font-size: 200;
+  padding: 2px 0;
+  background-color: var(--light-color);
+  color: #eee;
+  border: none;
+  border-bottom: 2px solid var(--main-color);
+}
+.messageForm textarea {
+  resize: none;
+  height: 220px;
+  display: block;
+}
+textarea::-webkit-scrollbar {
+  width: 5px;
+}
+textarea::-webkit-scrollbar-track {
+  background: var(--light-color);
+  border-radius: 15px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 15px;
+}
+.inputGroup label {
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  color: #888;
+  font-size: 200;
+  transition: 0.4s all linear;
+  pointer-events: none;
+}
+.inputGroup:nth-child(4) label {
+  top: 2px;
+}
+.inputGroup input:focus ~ label,
+.inputGroup textarea:focus ~ label,
+.inputGroup input:valid ~ label,
+.inputGroup textarea:valid ~ label {
+  transform: translateY(-30px);
+  font-size: 200;
+}
+.inputGroup button {
+  padding: 8px 16px;
+  font-size: 18px;
+  background-color: var(--main-color);
+  color: #eee;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+}
+.inputGroup button:hover {
+  background-color: var(--dark-color);
+  color: var(--main-color);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--main-color);
+}
+@media (max-width: 1100px) {
+  .messageForm .halfWidth {
+  flex-basis: 100%;
+  }
+}
+@media(max-width:900px) {
+  .container .row {
+    flex-wrap: wrap;
+  }  
+  .row section.left, .row section.right {
+    flex-basis: 100%;
+    margin: 0;
+  }
 }
