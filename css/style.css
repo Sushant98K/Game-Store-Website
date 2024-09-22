@@ -658,6 +658,7 @@ header {
 .copyright {
   display: flex;
   justify-content: space-between;
+  
   padding: 20px;
 }
 .copyright p {
