@@ -33,11 +33,11 @@ This project utilizes the following technologies to deliver a seamless user expe
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/yourusername/gaming-store-website.git
+   git clone https://github.com/sushant98k/gaming-store-website.git
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd gaming-store-website
+   cd Gaming-Store-Website
    ```
 3. **Open `index.html`** in your browser to view the site.
 
