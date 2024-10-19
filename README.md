@@ -25,7 +25,7 @@ This project utilizes the following technologies to deliver a seamless user expe
 
 - **HTML5**: Structured, semantic content for the gaming store.
 - **CSS3**: Advanced styling, grid layouts, flexbox, and animations.
-- **JavaScript (ES6)**: Adding interactivity, dynamic content, and managing the shopping cart.
+- **JavaScript (ES6)**: Adding interactivity, dynamic content.
 
 ---
 
