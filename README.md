@@ -1,6 +1,7 @@
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Game+Store+Website;" />
 </h1>
+
 # 🎮✨ Gaming Store Website - Built with HTML, CSS, and JavaScript 🕹️💻
 
 Welcome to the **Gaming Store Website** project! 🚀 This is a modern, responsive website designed to showcase gaming products 🎮, accessories 🖱️, and services 🎧, built using core web development technologies: **HTML**, **CSS**, and **JavaScript**.
